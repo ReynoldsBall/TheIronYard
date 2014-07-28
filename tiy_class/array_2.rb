@@ -62,7 +62,7 @@
 
 # end
 # check_win( combat_1), combat_2 )
-
+ 
 a = [
 	[1,2,3,4],
 	[5,6,7,8],

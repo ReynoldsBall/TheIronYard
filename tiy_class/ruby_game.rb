@@ -34,57 +34,62 @@
 # end
 
 
-# first_person = {
-# 	name: "Nicky B",
-# 	age: 26,
-# 	eye_color: "Brown",
-# 	hair_color: "Brown"
-# }
-# another_person = {
-# 	"name" => " Belinda",
-# 	"eye_color" => "Green",
-# 	"Hair_color" => "Brown"
-# }
+first_person = {
+	name: "Nicky B",
+	age: 26,
+	eye_color: "Brown",
+	hair_color: "Brown"
+}
+another_person = {
+	"name" => " Belinda",
+	"eye_color" => "Green",
+	"Hair_color" => "Brown"
+}
 
-# third_person = {
-# 	:name => "Jamie",
-# 	:eye_color => "Green",
-# 	:hair_color => "Brown",
-# 	"children" => 2
-# }
+third_person = {
+	:name => "Jamie",
+	:eye_color => "Green",
+	:hair_color => "Brown",
+	"children" => 2
+}
 
-# people = { 
-# 	name: "Sam Waller", eye_color: "Blue",
-# name: "Will Fisher", eye_color:"Brown"}
-
-
-# people.each do |first_person|
-# 	print "Name: "
-# 	puts first_person[:name]
-# 	print "eye_color:" 	
-# puts first_person[:eye_color]
-# end
+people = { 
+	name: "Sam Waller", eye_color: "Blue",
+name: "Will Fisher", eye_color:"Brown"}
 
 
-# name_list = people.map do |first_person|
-# 	first_person[:name]
-# end
-# puts name_list
+people.each do |first_person|
+	print "Name: "
+	puts first_person[:name]
+	print "eye_color:" 	
+puts first_person[:eye_color]
+end
 
-# people.each { |first_person| puts first_person[:name] }
 
-# def do_math
-# 	math = 2+2
-# 	puts "hey Anna #{math}"
-# 	return math
-# end
-# puts do_math
+name_list = people.map do |first_person|
+	first_person[:name]
+end
+puts name_list
+
+people.each { |first_person| puts first_person[:name] }
+
+def do_math
+	math = 2+2
+	puts "hey Anna #{math}"
+	return math
+end
+puts do_math
 
 def display_name name 
 	puts "persons name: #{name}"
 	return name
 end
-puts display_name(Lance)
 
 
+people.each do |person|
+	display_information(person)
+end
 
+def display_informtion person
+
+end

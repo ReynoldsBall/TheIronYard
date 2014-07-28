@@ -102,4 +102,6 @@
 #gets- asks for user input (gets string)
 #boolean- == equals, || or, && and, true or false statements
 #conditoinal- determines true or false in side the given perameters
+#interates
+# create hash quiz 15-20 questions return percent correct
 

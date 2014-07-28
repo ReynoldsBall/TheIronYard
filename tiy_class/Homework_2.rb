@@ -1,11 +1,4 @@
-# enter name
-
-# what is the largest land mammal
-# answer elephant
 score = 0
-
-
-
 
 
 puts "Question 1\nwhat is the largest land mammal?"
