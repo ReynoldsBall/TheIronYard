@@ -32,8 +32,18 @@ class Summoners
   end
 
   def lane
-    self.lane = self.position.times{print"-"}
+    
+    print "#" * 50
+    puts "_<^>_"
+
+    self.lane = self.position.times{print"~"}
   end
+  def cheat_2
+     # gets.chomp == "exhaust"
+    self.position += 10#rand(6..8)
+  end
+
+  
 
   
 end

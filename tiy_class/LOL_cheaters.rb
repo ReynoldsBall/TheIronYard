@@ -3,6 +3,7 @@ class Bots
   attr_accessor :name
   attr_accessor :position
   attr_accessor :lane
+  attr_accessor :cheat
 
 
 
@@ -21,9 +22,15 @@ class Bots
 
 
   def lane
-    self.lane = self.position.times{print"-"}
+    print "#" * 50
+    puts "_<^>_"
+    self.position.times{print"~"}
   end
 
+  def cheat
+     # gets.chomp == "exhaust"
+    self.position += 0 #rand(1..2)
+  end
 
   
 end
