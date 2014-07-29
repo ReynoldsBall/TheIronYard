@@ -22,7 +22,7 @@ class Bots
 
 
   def lane
-    print "#" * 50
+    print "#" * 50 
     puts "_<^>_"
     self.position.times{print"~"}
   end

@@ -1,4 +1,4 @@
-require './LOL_summoner.rb'
+ require './LOL_summoner.rb'
 require './LOL_cheaters.rb'
 
 puts "Welcome Summoner"
@@ -75,7 +75,7 @@ while summoned == true
     
 
   end
-
+ 
 
   
 
@@ -96,7 +96,7 @@ while summoned == true
     then summoned = false
     puts "Lucian Wins"
   end
-  
+   
 
 end
 

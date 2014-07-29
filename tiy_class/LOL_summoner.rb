@@ -14,7 +14,7 @@ class Summoners
 
   attr_accessor :name
   attr_accessor :position
-  attr_accessor :cheat
+  attr_accessor :cheat 
   attr_accessor :lane
 
 
